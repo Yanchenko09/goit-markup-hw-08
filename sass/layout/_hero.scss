@@ -1,0 +1,192 @@
+.hero {
+	text-align: center;
+	background: #2f303a;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+	screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+	screen and (min-resolution: 192dpi) and (max-width: 767px),
+	screen and (min-resolution: 2dppx) and (max-width: 767px) {
+	.hero {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/mobile/hero/bg_mobile2x.jpg");
+		padding: 118px 0;
+		max-width: 480px;
+		min-height: 400px;
+	}
+}
+@media screen and (min-width: 480px) {
+	.hero {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/mobile/hero/bg_mobile.jpg");
+	}
+	.hero-text {
+		width: 364px;
+		font-weight: 900;
+		font-size: 26px;
+		line-height: 1.62;
+		text-align: center;
+		color: var(--hero-text-color);
+		margin-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.advantages-item-svg {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 450px;
+		height: 120px;
+		background: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+	.advantages-characteristic {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.advantages-description {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.71;
+		color: #757575;
+		margin-bottom: 30px;
+	}
+	.our-advantages,
+	.we-doing {
+		background-color: var(--background-color-sections);
+		padding: 60px 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+	screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+	screen and (min-resolution: 192dpi) and (min-width: 768px),
+	screen and (min-resolution: 2dppx) and (min-width: 768px) {
+	.hero {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/tab/hero/bg_tab2x.jpg");
+		padding: 118px 0;
+		max-width: 768px;
+		min-height: 400px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.hero {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/tab/hero/bg_tab.jpg");
+	}
+	.advantages-item {
+		width: 354px;
+		height: 120px;
+		margin: 15px;
+		margin-bottom: 136px;
+	}
+	.advantages {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: -15px;
+	}
+	.advantages-item-svg {
+		width: 354px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30px;
+		background-color: #f5f4fa;
+		border-radius: 4px;
+		height: 120px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.we-doing {
+		display: none;
+	}
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+	screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
+	screen and (min-resolution: 192dpi) and (min-width: 1200px),
+	screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+	.hero {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/tab/hero/bg_tab.jpg");
+		padding: 200px 0;
+		max-width: 1600px;
+		min-height: 600px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.hero {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg.jpg");
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}
+	.hero-text {
+		width: 696px;
+		font-size: 44px;
+		line-height: 1.36;
+		margin: 0 auto;
+	}
+	.advantages-item {
+		width: 270px;
+		height: 120px;
+		background: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+	.advantages-item-svg {
+		width: 270px;
+	}
+	.advantages {
+		margin: -15px;
+	}
+	.our-advantages,
+	.we-doing {
+		background-color: var(--background-color-sections);
+	}
+	.we-doing {
+		margin-top: 118px;
+		padding-top: 0px;
+	}
+	.we-doing-card {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	.we-doing-card-items {
+		position: absolute;
+	}
+	.we-doing-card-item {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		text-align: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #ffffff;
+		margin-top: 27px;
+		margin-bottom: 27px;
+	}
+	.doing-card {
+		position: relative;
+	}
+	.doing {
+		position: absolute;
+		bottom: 0;
+		width: 370px;
+		height: 70px;
+		background: rgba(47, 48, 58, 0.8);
+	}
+	.responsibilities {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.17;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+}
