@@ -1,3 +1,19 @@
+@media screen and (min-width: 480px) {
+	.portfolio-menu {
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 8px;
+		margin-bottom: 50px;
+		justify-content: flex-start;
+		row-gap: 15px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.portfolio-menu {
+		justify-content: center;
+	}
+}
+
 .work-items {
 	display: flex;
 	flex-wrap: wrap;
@@ -25,13 +41,7 @@ button.current {
 	color: var(--current-color);
 	background-color: var(--accent-color);
 }
-.portfolio-menu {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px;
-	margin-bottom: 50px;
-	justify-content: center;
-}
+
 .work-items-categories {
 	background: #ffffff;
 	border: 1px solid #eeeeee;
